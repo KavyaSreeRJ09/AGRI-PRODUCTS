@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title>"Agri"</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script type="text/javascript">
+  if (screen.width <= 800) {
+    document.location = "https://raj2852.github.io/msafar/";
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="modal.css">
+<link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+</head>
+<style>
+	img{display:block;
+		margin:0 auto 0 auto;
+		filter: drop-shadow(0 0 1rem crimson);
+	}
+	.container{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 95vh;
+		animation: animate 16s ease-in-out infinite;
+		background-size: cover;
+		border-radius: 0 0 25% 25%/0 0 25% 25%;
+	}
+	a{
+		letter-spacing: 0.8rem;
+		filter: drop-shadow(0 0 0.75rem #8A2BE2);
+	}
+	h1{
+		font-family: 'Germania One', cursive;
+		filter: drop-shadow(0 0 0.75rem #8A2BE2);
+	}
+	
+	@keyframes animate{
+		0%,100%{
+			background-image: url(https://www.teahub.io/photos/full/21-215802_farming-backgrounds-background-pictures-of-farms.jpg);
+		}
+		25%{
+			background-image: url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?cs=srgb&dl=pexels-%C3%A1kos-szab%C3%B3-440731.jpg&fm=jpg);
+		}
+		50%{
+			background-image: url(sl3.jpg);
+		}
+		75%{
+			background-image: url(sl4.jpg);
+		}
+	}
+	.card{
+		padding: 15px;
+		position: relative;
+		height: auto;
+		width: 410px;
+		box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+		background: rgba(255,255,255,0.2);
+		border-radius: 10px;
+		border-top: 1px solid rgba(2555,255,255,0.5);
+		border-left: 1px solid rgba(2555,255,255,0.5);
+		backdrop-filter: blur(5px);
+	}
+	</style>
+<body>
+	<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Welcome to Agri seeds.Here's what we have included in our new feature update:</h4>
+    <ul>
+    	<li>Experience the new joyfull seeds with smooth transition effects.</li>
+    	<li>The most awaited seed search with autocomplete feature for user ease!</li>
+    	<li>Contact us feature; we would love to hear your feedback.</li>
+    </ul>
+    <h5>Why wait? Let's EXPLORE!</h5>
+  </div>
+
+</div>
+
+	<div class="container">
+				<br><br>
+			<h1  align="center"><font  color="yellow">WELCOME TO "AGRI SEEDS",<br>YOUR ONE STOP DESTINATION ALL OVER INDIA</font></h1><br>
+			<a href="hii.html" class="btn btn1" align="center"><font size="6">EXPLORE</font></a>
+			<a href="#textarea" class="btn btn1" align="center"><font size="6">ABOUT</font></a>
+			<a href="contactus.html" class="btn btn1" align="center"><font size="6">CONTACT</font></a>
+			<center>
+				<div class="arrow">
+				<a class="a" href="#textarea">Know About Us</a><br>
+				<i class="fa fa-angle-double-down fa-2x" style="animation: MoveUpDown 1s linear infinite;"></i>
+			</div>
+			</center>		
+	</div>
+	<div id="textarea" style="position: relative;">
+		<h2 align="center">Why agri products? How are we different?</h2>
+		<p class="text">Agriculture produces food and other raw materials. These materials are used for food production, consumption and waste management. The agricultural sector helps make the country wealthy because there are enough income and money generated from agricultural activities to finance the different needs and demands of the society.😉. 
+			As individuals within a society become more specialised in their economic activities, they come to rely upon others to supply at least some of the products and services which they need. Thus begins a process of exchange between buyers and sellers. For a while buyers and sellers remain in immediate contact and each party is able to determine what the other needs and values and, therefore, will be willing to exchange. As the economy develops the number and types of exchanges expand, there is a concomitant need for increasingly specialised marketing services such as physical distribution, storage, grading, market information gathering and so. The number of participants also increases with many of the specialised services being provided by intermediaries between the seller and ultimate buyer. Few buyers and sellers are in direct contact with one another and communication between them is channelled through a complex marketing system. This introductory chapter is devoted to exploring the nature of marketing and marketing systems.
+		</p>
+		<img class="img" src="si4.jpg" height="30%" width="30%">
+		<br>
+		<br>
+		<h3 align="center">We wish you a happy journey</h3>
+	</div>
+	<div class="footer">
+		<br>
+		<p align="center">The information shown in each page are comprehensively calculated and are updated . Don't forget to check the link to the new seed varieties.</p>
+		<View style="text-align: center;">
+			<p>Agri Seeds | @2023 | All copyrights are reserved</p>
+			</View>
+	</div>
+<script type="text/javascript" src="modal.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400,
+		glare: true,
+		"max-glare": 1,
+	});
+</script>
+</body>
+</html>

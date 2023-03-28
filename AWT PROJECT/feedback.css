@@ -1,0 +1,15 @@
+body  
+{  
+ background-image:url(https://image.shutterstock.com/image-illustration/wooden-table-on-black-wall-260nw-1418939405.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h3{
+    color: cornsilk;
+    text-align:center;
+  }
+  button,input,textarea{
+    padding: 15px 32px;
+    font-size: 14px;
+    margin: 2px 2px;
+  }

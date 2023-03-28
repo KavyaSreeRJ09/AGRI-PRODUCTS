@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+<style>
+  * {box-sizing: border-box;}
+
+    
+  body {margin:0;font-family:Arial}
+    
+    .container {
+      position: left;
+      width: 100%;
+    }
+    .image {
+      margin-left: 10px;
+      display: flex;
+      position: left;
+      width: 100px;
+      height: 5%;
+      
+    }
+    h1{
+      margin-top: -57px;
+     }
+     table,th,td
+{
+ border:2px solid black;
+ padding:5px;
+}
+table
+{
+ border-spacing:10px;
+}
+
+
+</style>
+</head><center>
+<body align="center"> 
+  <div align= "left">
+  </style>
+  </head>
+  <body>
+  <div class="container">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABxVBMVEX///8AAAD//v////0NkUZoaGj///z//f8NkUc1NTX8//+mpqbg4OD09PTHx8cLkkWJxT8XFxcbGxt1dXUAkTgdrUszsEuBsooAjz8AhDdKtEjP5rGX1aZClleEw0FAskp7wkJEnkaIiIhEmVRqu0VguUep1Li9vb2k27MAgzkil0Yzm0bzXyHt7e0AizjY2NiFw5JVVVW+3ZxfvHGIAACu18Dj+e7D5tBRpUVhrUV5u0Lgb0CHxjnloH7svKDxy7NCQkIrkliEhIQnJye22rVfX19Ln2udnZ0dsD2wsLBwtUK336+Rx2j/9PCsZVjfurSpY2H05eGOwJ5usH9Il2W92sQmjEkyjTfI5L5SnzXT7d3s1cnNbkhRq0BsqkHlTQDji2VQm0nfWBf97dnnqozrhVbe8dZpp0ncUACGu0f/9ujgYyzlelLnpIbPhWfK3c3yz8Dte0vmw6/UWA/x/OjswqFLtGttu3fX5saey4VduStFtTlkp215smuTwWut04SJyXbG25yczGWQzIG3gXiBHhXhxsTmwbrcqJy0koenZ1eaUT2XR0SRGhimPjXAjpLDg3+SLAjLtKqoRD+cCwCdYF+IMShE14cwAAATKUlEQVR4nO2di0MTV77HT8/BCY5iUCuboBXrCi4QsVUeAmq0ogXaANFKWbI2KQGKQXvdlru3W23r7aXgA8Vdb/177+9xZjKTmSRiTRi88zWlzIvMJ78zv9/vPCNEqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFcpPUsrtvoV66P8F5Lurd958BGhu913UQEpJDTd7/ca1D67d6OjHvXhgm+/sbUkiixJm3+V4TywWizb0xK8NgF9V8Nrue3sbIkPBf7NfxAGusbGhAV7R+LVZDB7bfXNvTxFxszMWBbwo/ADOhmhs+iaAvyOIUBpFRzyG5muIkhHhZ2Ms3ifeiUIqyFJ9nUDXYCE2EmMUEHe6JDoYzNT64lELjwnheYRfO/volJ38OEqMfhELkIppvKeHDBgF3mhnB5wid3DQgFvHm+/rjKL9ADLWeaPjZscNAMaSCpj4LKqdTGgqtmAjIjVGY5dnaf9AZ5QfxQZ0Nzu4jIIkF9EoR8HL/UKamN/cjMcwYoB2MCI5GSh+aEHyK42xy/3SxJILRDc72fWAJeMd232rbyRJPpLCBKBQKhO93G8dxf1xNCLFDQwaUu60hJySFckWRJIGtGDEcYJ5k46gEWMUNHZgiooeEiyIgBj7pvuFaUFI04Q0joovIcYHxI6rO0qBXrSjk5xMFL1of8S0GJAdXgM9MXQ2gNjV0yd2nA2Vsr1oIxVR4bASZjGKggaGfXh17awEDo2hvWiUn0IElI7Ijr9Iw+S4GG3ogpcOGjvC3+CNkgV1QICwPt3vdyJZMQYGxKKqrRjZAYgY7rSToUDfQIARXz8SEQPxrsYuLKpd7++YZ1ExJMW7RiylCGj61AS59guIYMQuFCDuiFKq7CJKqRoAzkI09zGh5B8DnV2asCu2M6xISRnVJtiLTs/q3d4zFRkSEVndX47U+Wa3Kol0kooohjksowSofAFJStiI3aAvZ3hnUAVRzuRnkCyoAas8WqY0B3o0YPeHiGjKSFAZta20BSlMzFa5BDJuhR61WxMSogqwFbnC2+AANKtU4CVVs2YbNCBoJsjFVNheFCtMsc7ZqjdLfgnj4rQGPHfurzPB9ai6iHKdqAEBpapa4uiwREQGPHcLEANIyJ0v7EWp2dDxDGKabaQNwfG8HPLslwx4bnDwr+xRA4WppF2biOomCwDkGi+FPZX524W8IpP6BH/8eMzZr899eO4WAA6OfzWjhBEJlCWpOiG4XZTb0KZn7aeJmZLZuVyeKsF+N47P4+LXaMDBwa/Gh24fDpoNJUYx9KLYYAEV3mjngMNYUEylVBcSibmL4FpNrxElYy9+fQstOD40dPTo4Xre/utIyYhO1Ro5F8Xmbuk6IT+XSGTnjQruVS5+g4DjAHi++XBwbKj0D93wi4yd2O5iWse4OmWIXHZhIXvRH1ByurD4zTiZsLkZEOtGUFnUjSs5DlIYhPogALL5rCeRKsUimZhLDs/lK+SoUFC/wiLaDDoPBdXfL9VbuhJEcZBKaYwsSFJcmaKfpiosJ3L5uVzZm4bzImrxKwYkRLD89gd/JOCGX+5eanAAcsZioCkVetFcIpu/uJQue9NYGsTi7fPNlg5jO2p9OMpLUudLh85kwIzoRW1Pj+MT9C+w52I2cacwPF+pmMJpRUR6FrfdhkL3D0a55zM6TRbUNSawQKoAMujWZX4pkb2XvFOx7Vcioubjgrrd0s2G2OyJTffUel3086aR+dvc8nBuPmOAMYzhRCJXGC7gEWVxmoayL6EsVimw4tFm+qfdjTDqD1ZUxOyIx6LUURbDHohS5QErkV26cw8MezeRWMp/mwa3g5HfIAkTNwCUT+egYRXUo82U3Wyzv/mPD/78gaUOd8UHnr6ICZF+4V5yYemCYWagmCYfZSh3KyTv5oaHhxcuJPMCdxSbAhS5G/SoR1GH652/SbciplPC08EC++azieWkkZy7k1ILicT8vQzszl9YmstdvJe/l8wllu4kC9zjrwkBCBG1huqbo+7bvf9Aee2/tNd1Nrp/U6aWoZjeNfLDC0Z+KTufyYjU3aXhiwUlCpmLub9jIR7+rvik8UdURDwGiPUbrXHqvWpqchNShxpEiUT2gigsz4vkXDKTzg8vzRdMI5lbzsIRSMjBmmm75013b4BH1YSIWDd9WpXwZMkV6EQgmcGkW2SW8iJlpJNzy1BQk8NLCVI2l+FPw3mVtBGPHdOI9Wmfqk74seca8JpoxMRSWtxdgKctszScF/mFLPPhI+ptb6Qe4cVfzzPgsWPjmN0YEc95b19NVQnf2+u5SCkDjZjIGYXv84ALyXdmWfMt5QocEEsJtUcdYkKyoqpLVGz69HhZXSLC4z6EUMFHmryYvyDy3ydtwOxyEqK5T5MxprqQDa7c1nxDbMXtTnD2EeEVj9vDhyqXpSexMGzkcqJgAV4omMq/WUNxu8jK54x44sSJ8Zk6INhCiL4/2/pCW+EKIe7zu6BwBxAXhPg2CQU1R89gdgFCv1RlLEM9xgoRh+BfHRGx84XcOaVq9Oq53K/NdpwIr/peWMhls8spsf73O0LdvTM8fGc+X7XM4QloxaETpPEZxRWsmkpxu5I1jATSbR7pRNrLvuaU34Wmkb/7bUrkl+7C1ZSPVh/krbANHRBPaA3O0ANaa0ndhR3lcTI8CEEf+5gI9/hdZkhMrs3C999ZjRpSqSr2kNTAYyG2t7ffmqlD/iaVyU0WURoDG+WxavrgGBHu9rvOlAYmOMb393gbbGGaVe5Xf3Irn2tAQqx1UFRWEUVAGieDYw2t+9Th8rTvldQcYBNCUX2dgV5k5pVvLML7t2rubnQHKI9Vi9JAIOcA2INE+InvldLA/ovle1TPtUfWVH0/bCgARORrBd1arHExhT/f38kzJhobYpdLx8ns80m/XZcby/+59eEWBiBahK1nDVnTHFVK80ZMj0RHL1r6IF3xTb8dN/vtd1t/T4UF9X4rEbaN/qW23kaJAT0qPUphovS9ODW/NLbnDeTNaPktaSw/IhJhW7chatmFKsWfYtQ1QYCGx9vvrZ6al5dvmKFxfmjFs8TX0jLaUVNCYUxHmZB6eL1174//AOGVMu9JsVMungNAIGz5R+3oULNxahZt7LlOqaNbYOKTf4TQ4aGUbleWlLlSu/qRUQJsOdRf0zlvHUgIr3i/s1HKOmqKpgNvTnip+DZQ3zX0G+AWJUD9LQw42lfTpinwpOhoYjc4rLl+0Pt+8uaEjjiqTWj9WfxpiP9CPtCRmrb1fxHDWN/Q01daSKktF6rr7Gt2yyaX9uPOg/bO3e7NJr5orPg2BrpQ/Yd1748hjjDgoY9qWcEwp7kTNO472InCI1f1S1w/E9qbu92b4jRdU8z2/E10ZPSQRVg7mZd5el3njT95dZPubQ/dbUljRhVCTtmd1a4f/mnrI0v/YEAspTU04rVYI409j73vUQ9PftHp95YI6eF11Uk++/HEjyfu2xpFaUAKiDUDFNd7qCe7VFiVinewi9tFhO7MrQohRVFX48DMj1SZaNeJDHtRTYhPSO0QB+I8X8mjqE3I6be74bQKIV3xqQ+hD+ChQ0ZNq/rGB7FSQu79jUZ7NCHjuH1NZcJTXqszYasmdPC1jH4kVA3Hg0vKvH1KadRBeNzrayoT7vN+JCP33Ra0DTiKKU1tB7xf76lGyNHtyl6HiHCXvUmEu05Zm8e9vgkJfQDhlxE0YA1LKTZDTcd7nD40FqW5kkVCHRK3qEulhAw46tbZaqOO/6gkzgHt77vuioPTpYRjb0J40PVGI1wdbD37kVNHBoxat+1Lv6rZtVgJ4Wt04Hg15vqbTNjW9pea4viIxhhIHj1hJaSmh1C3SG1N7t4AImzDNgsr8xb1mblP7yGVcx6aH+HpNyB0N5UzYUtLiQ3rMLNdWv+zp0u6CK3TyFm+d3yfJfKlV+3NK65Nymj2u98HCMmLWoRcVax9t4VXupQ2RLu6mJAhuUVql30a1YvLxUNyva6cTQIhAR6q+3PokfUcdrkJT5WUvEoRv4ksWlIZQcKWQBCCkLDLJtS6SoR2qlmJ0CdnA8JRzkWDQtjlIeQWqUvWZiXC0uovaWSUk+0gEErzGk+ue99JyNUF+74rEVKV+UBJTwARHgoGofAn5BYpi6ISobf6C+oY5Vw0SITdRGg7cx0StWkqEV51H2MFiVAxYXf3+yNOQp1+61ysEuEVl0/S6tBtFkEgFBZhNxHaBXXM6WsqxENuaSwdwREgQkWENH1wxDUfVofE3ST6df9uS65Nn5wtWIToS7t9CHWL1Otpd2kyFiBCiBYPui1Cl/ZtgdAz4I8JgxLxH+gpriMljdVb6KTxdP0HiFBpwg+9hFswomeoGBEGI2vThDgBdKS0AWDfrtfTQe9YOCTEvC0QhOKBnqQ88hYrbx2UlwaHkCcpv5uEWD98oKeZj7zFcS7BIQSpBzwLuzzh6bGxfZ5RRKdO7jnpO4yRFCRCKR4Q4OAtjIc+hHupHeZAyVgSbuc+WG74FBO2BYNQPXBMo/cS2kNsXO0U1qiUK2UQkbCtbRvaS/1EhDjN3J9wt1/Q22Pv9B9SjDXgtmAQYib6EwOO+xI6wr4jNSti+w8ptgk/q9WNv76URTgOhD7RomgtR4l0zi7yH+Y3MtoWJEK9UIDv6FbHNJsDvoRjflcFilCqnwZ5oQDfCViOfqhiW4yz68Z3RDERtra1tgaAUEjjJwYc8p2X7DCXw5kW6477PVeQAkY4zishHPbtm7WL6X5HYCiO0vQvpEiI3Wv3g0AoiBBXQsBS6uNrLHu5iuNJr11dChSh+onXsjh/uEzf0BjEhv2flESF09iIeNVvChFpZJT7gLefUCll/DxEi3U0lyMEz+KXucjyWWmgCKGU/nyM17IoT7j1v6r78QNQSolQL9ZRA8Kg2NBeqONdJMQlHX52LEXiExEdXe8V68f6Wwb49IAR8hoP52n1A+Ua+O0Q76y4ir4e8yylIT4jwvZgEKpf9CoWvxjFNm/CtEeiW8hKVBpLwWPy8VxlnCXA9vt1nRvrf1dQMM9owtuL1cfQWwa2B6vYRrUGddOnNHOfANvbF2t4768rJX6wFiL5ZeUtNUQtnmMTtg+uvJ0/+EcEBW/ltrUo0O1fz1QSjto+Ul3/fHgL5+GhCR9u/1LtWKbM/yYL4morzeetlR4snThhzwD1HS96iNvUuEbf1mqLZ1TORLZ18R0UjVMCI9KSQJashRCG9CxsL2CLP2Cbi6/9/sMArPUlKQwcbj5fBLTNZ/FpQp8hzWUt2MpzYhcDsNaXns955mhzswfwmBewpIi2+Fuw1Zr0W4/J6dXFi+Sf8VjQzedbRF2AraVFdHAxGF97YehlFg7rFXPsZ9CniLbxaLxSwBZfJ/NwxVoTMxAylVg5c7v5vMeJOh/BrTyDD2eM4NAJKxtb+eHML7+iPnfoodbZ15B17v98tmgEYLEWp+hmIhw63pK2PQ56pAw9GNve4U9bHB9ubdmHMGflubY0KzZYNtQzZj2LeUjrroXy1puKexw1Lj3YWQXu+x9psSfDBnR94YpD/tWnYq1CFAerB8mCoUKFClUPKWmKFIgXlZe4hjO+eGoNHjKEnrIvcSFPRVMklTUJRqoIXGs0GbQ8KC7Iirk8DTj2rp6yTVKiMNHb27vKW7gYO90ZLrwqzRQemtTfdJXuNX5LM4ipDBOjhykm4YTetcdpAjMxOcJvv8RFlwLCh9p8vr6+nhb0yUtcKVCh2XCxK7E5sb7+6JWiXWb6mbGeEtatK14e6/mj9fXJ1OMMbEo+Rqtkq+Ky7gHQ1AT+zDx58mQiI1Yn1OrTiYmJjUkRUWJqUoj0b0YG96SAcCOdgt8m0qkpOGMN18R6BtYT6vFzuDiVekLXTT598pSKRGAIXzxfX5vM4Fpz65viXxmxkcq8NNafoj2YUG2+UMbztfRzoze9timMF5uZZ0o8egzXqo0Xk5Np8XhdqOeZzKohHk2JqZRI96bMAFSALb149nRj49+pjampV0CYFlMisirWnmIVQdtw84UQLzNgw2fptX/DBZuZl+mJ39bQ7aQnJ1dfCXwOX65lgHkSCA2R6k3hA7ndZCwlXmzg/9deAoxF+DsSiiLhJgLYhKuba//7atLOU9P/Eo/X8CNwEwbFlYKAUCGhYaxZhFNAiPf/4kUqNYmlVBP2sg1XoRQaEGA40KwDYcZEwieGQaXUgOPBeQzJhlAgUxPPnvVOqt6M+F2kwIYbOPw0tYE7BdpwI5N+ZdlwVcHJz16B25V4wiMgVHBC4TnszYiXvc8w+AQmHkqRIndoqnQ6JVQ6ItIQGFRTmhZaFGlc6TkFFkk3RdIqreBXRZsgDJ9pvMpoikg4QRi4IaZgnyr3rTTbIa4WmvwiD0hfCWgq3bBBLbs8B9w6X5rW1yZggwV//Yz1PYJK/I6L7xpGYGrBJqVYcPNmBBdI5JURaRe7e92+oXi9B2lx66YK+tou09rBfzCiKLcLULQIFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChaq//A9AoiZ15ctaXAAAAAElFTkSuQmCC" alt="Avatar" class="image">
+
+       <div align="center">
+            
+           <h1>ONLINE STORES FOR AGRICULTURAL PRODUCTS</h1>   <hr> 
+           
+          </div>
+  <center>
+    <table   align="center">
+      <tr>
+       <th>Apple Seed</a></th>
+       <th>Cherry Seed</th>
+       <th>Pomegranate Seed</th>   
+      <th>Strawberry Seed</th>
+       
+      </tr>
+       <tr>
+       <td>
+       
+                <img alt="up next session" 
+                src="https://media.istockphoto.com/id/834816218/photo/red-apple-fruit-with-half-and-green-leaf-isolated-on-white.jpg?s=612x612&w=0&k=20&c=CAwW2uRYUNm5HyEN4iWTSx-2E9EyqFp-7VS2n7wFnIo="
+                width="300" height="200"> 
+              </div>
+              <br>
+                <a href="payment.html"><input type="button" value="Purchase"  ></a>
+              </div>
+            </div>
+          </div> </td>
+          <td><a href="  ">
+           
+                    <img alt="up next session" 
+                    src="https://media.istockphoto.com/id/1231764010/photo/cherry-isolated-sour-cherry-cherries-with-leaves-on-white-background-sour-cherri-half.jpg?s=612x612&w=0&k=20&c=DLpglmsQMzG-1CMwgQKVHg9yyUZOeYI5M5810NwzIfE="
+                    width="300" height="200"></a> 
+                     
+                  </div>
+                  <br>
+                    <a href="payment.html"><input type="button" value="Purchase"  ></a>
+                  </div>
+                </div>
+              </div> </td>
+            
+                <td><a href="  ">
+                  
+                          <img alt="up next session" 
+                          src="https://static.toiimg.com/photo/msid-69940581/69940581.jpg"
+                          width="300" height="200"></a>  
+                        </div>
+                        <br>
+                          <a href="payment.html"><input type="button" value="Purchase"  ></a>
+                        
+                      </div>
+                    </div> </td> 
+              <td><a href="  ">
+                
+                        <img alt="up next session" 
+                        src="https://cdn.shopify.com/s/files/1/0320/6761/products/strawberryseedoil-sw_700x.jpg?v=1628320094"
+                        width="300" height="200"></a>  
+                      </div>
+                      <br>
+                        <a href="payment.html"><input type="button" value="Purchase"  ></a>
+                      </div>
+                    </div>
+                  </div> </td>
+      </tr>
+      <tr>
+        <th>Watermelon Seed</a></th>
+        <th>Orange Seed </th>
+        <th>Guava Seed</th>   
+       <th>Banana Seed</th>
+        
+       </tr>
+        <tr>
+        <td>
+        
+                 <img alt="up next session" 
+                 src="https://indianapublicmedia.org/images/amos-images/watermelon.jpg"
+                 width="300" height="200"> 
+               </div>
+               <br>
+                 <a href="payment.html"><input type="button" value="Purchase"  ></a>
+               </div>
+             </div>
+           </div> </td>
+           <td><a href="">
+            
+                     <img alt="up next session" 
+                     src="https://www.gardeningknowhow.com/wp-content/uploads/2020/12/orange-seeds-400x300.jpg"
+                     width="300" height="200"></a> 
+                      
+                   </div>
+                   <br>
+                     <a href="payment.html"><input type="button" value="Purchase"  ></a>
+                   </div>
+                 </div>
+               </div> </td>
+             
+                 <td><a href="  ">
+                   
+                           <img alt="up next session" 
+                           src="https://5.imimg.com/data5/SX/ZS/BP/SELLER-1049244/fruit-seeds-500x500.jpg"
+                           width="300" height="200"></a>  
+                         </div>
+                         <br>
+                           <a href="payment.html"><input type="button" value="Purchase"  align="center"></a>
+                         
+                       </div>
+                     </div> </td> 
+               <td><a href="  ">
+                 
+                         <img alt="Beans" 
+                         src="https://rukminim1.flixcart.com/image/416/416/plant-seed/d/g/q/100-rare-exotic-bonsai-banana-futaba-original-imaesfht8pffzh2f.jpeg?q=70"
+                         width="300" height="200"></a>  
+                       </div>
+                       <br>
+                         <a href="payment.html"><input type="button" value="Purchase"  ></a>
+                       </div>
+                     </div>
+                   </div> </td>
+       </tr>
+      
+      </table>
+      <a href="hii.html" type="submit" class="btn"> BACK</a> 
+    </center>
+</body>

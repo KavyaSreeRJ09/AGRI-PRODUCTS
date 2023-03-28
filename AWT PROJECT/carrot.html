@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Purchase</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        
+* {
+  box-sizing: border-box;
+}
+.checkout {
+	height: 300px;
+	width: 400px;
+	margin: 20px auto;
+	border: 2px solid black;
+	text-align: center;
+}
+.body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<table align="center"><td>
+<img align="margin-left" height="500" src="https://rukminim1.flixcart.com/image/416/416/kgb5rbk0/plant-seed/8/d/h/100-carrot-seeds-gajar-ke-beej-organic-herbs-original-imafwkvrbrhmeeyu.jpeg?q=70" width="500" ></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td>
+
+
+    <div class="checkout">
+        <h1  class="title">Checkout</h1>
+        <p class="price" data-price="4.99">4.99 per kg</p>
+        <p class="description">Quantity:</p>
+        <input type="text" class="quantity" value="1">
+        
+            <p class="total">Total: <span id="total">4.99</span></p>
+            <button class="btn"><a href="payment.html">Submit Order</a></button>
+            <button class="btn"><a href="vegetables.html" >Back</a></button>
+
+        </div></td>
+        
+    </table>
+        <div class="content">
+            <h1>CARROT SEEDS</h1>
+            <p>Carrot seed essential oil has shown antibacterial, antifungal, anti-inflammatory, and antioxidant properties. <br>
+              What it doesn't have are the vitamins and nutrients provided by carrots, since it is not to be taken internally.<br>
+              a yellow or amber-colored to pale orange-brown liquid of peculiar dry- woody, somewhat root-like, earthy odor. <br>
+              The initial notes are sweet and fresh, but the tenacious undertone and tryout are very heavy, earthy, fatty, and oily with a light spicy note.</p>
+                 
+          </div>
+    <script>
+        $(document).ready(function(){
+            $(".checkout").on("keyup", ".quantity", function(){
+                var price = +$(".price").data("price");
+                var quantity = +$(this).val();
+                $("#total").text("$" + price * quantity);
+            })
+        })
+        
+    </script>    
+    </body>
+</html>
